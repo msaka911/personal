@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <div class="blurred hidden">  </div>
+  <body>
+    <nav class="nav">
+      <button class="button">Achievement</button>
+      <button class="button2">Other Project</button>
+    </nav>
+    <header>
+      <h1>Welcome to Michael Profile</h2>
+      
+    </header>
+    <button class="chatbutton">
+      <img src="chatbutton.jfif" height="50px" width="50px"/>
+      <div><img src="notification.png" class="notification" height="20px" width="20px"/></div>
+    </button>
+    <section class="slider">
+    <div class=sliderbtn>
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+
+      <footer>
+        <img src="0.jpg" class="landview blurred" data-slide=0 alt="landview img" style="transform:translateX(-100%)" >
+        <img src="1.jpg"class="landview" data-slide=1 alt="landview img" style="transform:translateX(0%)">
+        <img src="2.jpg"class="landview blurred"data-slide=2 alt="landview img" style="transform:translateX(100%)">
+      </footer>
+
+
+    <div class="form__row">
+    <div class="dots"></div>
+      <select class="form__input form__input--type">
+        <option value="School_Life">School Life</option>
+        <option value="Work">Work</option>
+      </select>
+    </div>
+  </section>
+    
+    <section class="section hidden" >
+      <article class="article">
+        <h2>Work Experience</h2>
+          <p class="paragraph"></p>
+      </article>
+    <ul id="practicelist"></ul>
+  </section>
+
+   <hr>
+
+  <section class="otherProject">
+    <h3 class='link'><a href="https://reactmeanu.herokuapp.com">React MenuOrder Project</a></h3>
+    <h3 class='link'><a href="https://michael-microblog.herokuapp.com/">RestApi/Mango DB Project</a></h3>
+    <h3 class='link'><a href="https://dynamicsearch.herokuapp.com/">Ajax, Flask, Mongo DB Project</a></h3>
+    <h3 class='link'><a href="https://github.com/msaka911/">My github link</a></h3>
+  </section>
+  <hr>
+  <section class="education">
+    <p>
+      Queen’s University                                                                         
+      Bachelor of Science (B.Sc., Life Science Major, Geography minor)    September 2017 – June 2020 </p>
+    <p>Queen’s University                                                                         
+      Bachelor of Science (B.Sc., Biochemistry SSP)  September 2014 – September 2017 
+    </p>
+    <img src="logo.jpg" class="logo">
+  </section>
+  
+  </body>
+  
+  <hr>
+  <section class="contactinfo">
+    <p >Contact Info: Michael Xiang </p>
+    <p>Email: 14zx4@queensu.ca</p>
+    <p>Tel: 343-333-5672</p>
+  </section>
+  <script defer type="module" src="practice.js"></script>
+  <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> -->
+</html>
